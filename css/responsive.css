@@ -1,0 +1,137 @@
+@media only screen and (max-width: 530px){
+    .container{
+        width:100%;
+    }
+    header .logo{
+        margin-left:10px;
+    }
+    .phone{
+        display:none
+    }
+    .app-features p{
+        font-size:16px;
+    }
+    .why-us-headline h2{
+        width:100%
+    }
+    .features{
+        display:flex;
+        flex-direction:column;
+        /* justify-content:center; */
+        align-items:center;
+        width:100%;
+    }
+    .menu li{
+        text-align:center
+    }
+    .companies-trust{
+        margin-top:250px;
+    }
+    .smart-jackpot{
+    margin-top:250px
+}
+.reviews{
+    margin-top:170px;
+}
+.download-app{
+    margin:150px 50px;
+}
+}
+@media only screen and (max-width: 1040px){
+    
+    .vector{
+        display:none;
+    }
+    .awesome-apps{
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+    }
+    .awesome-apps h1{
+        width: 100%;
+        padding: 0px 35px;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+    .jackpot-header{
+        flex-direction:column;
+    }
+    .jackpot-header>div{
+    width:100%;
+    
+}
+.head{
+    border-right:0px;
+    margin-bottom:30px;
+}
+.jackpot-des p{
+    margin-top:20px
+}
+.jackpot-features{
+
+    margin-top:10px;
+    
+}
+}
+
+@media only screen and (max-width: 1240px){
+
+ .code-integ .vector-2{
+    display:none
+ }
+.code-integ{
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+@media only screen and (max-width: 600px){
+    .review-vector{
+        display:none
+    }
+    .reviews{
+        display:flex;
+        align-items:center;
+        padding:30px
+    }
+
+}
+
+@media only screen and (max-width: 1348px){
+    .toggle-btn{
+        display:inline-block;
+    }
+    .menu{
+    margin-top:-417px;
+    margin-bottom:50px;
+    width:100%;
+    display:flex;
+    transition: 0.3s;
+}
+    .navbar{
+        flex-direction: column; 
+    }
+    .menu ul{
+        flex-direction:column;
+        width:100%;
+        margin-right: 100px;
+    }
+    .menu a{
+        width:100%
+    }
+    .menu li{
+        padding:20px;
+        margin:0px;
+    }
+    .download-vector{
+     display:none;
+    }
+    footer{
+        margin-top:0px
+    }
+    .download-app{
+        display:flex;
+        padding: 0px 23px;
+    }
+}
